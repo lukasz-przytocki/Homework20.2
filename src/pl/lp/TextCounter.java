@@ -11,7 +11,7 @@ import java.lang.reflect.Array;
 import java.util.Arrays;
 
 @WebServlet("/convert")
-public class Text_counter extends HttpServlet {
+public class TextCounter extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
         String userText = request.getParameter("textSent");
